@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Dosis:200,300,400,500,600,700,800|Arimo:400,400i,700,700i|Cinzel:400,700,900|Parisienne|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Tangerine:400,700&display=swap');
+body{
+    margin:0px;
+    padding:0px;
+    font-weight:Roboto;
+    font-weight:500;
+}
+/*--slider--*/
+#salider{
+    position: relative;
+}
+.our-slider::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color: rgba(46, 54, 52, 0.7);
+}
+.our-slider .carousel-item .carousel-caption{
+    top:35%;
+    font-family: Arimo;
+    font-weight:700;
+    margin-left:10%;
+    margin-right:10%;
+}
+.our-slider .carousel-item .carousel-caption h5{
+    font-size:40px;
+    font-family: Amatic;
+    font-weight:700;
+    text-align: center;
+    padding-bottom:10px;
+}
+.our-slider .carousel-item .carousel-caption p{
+    font-size:20px;
+    font-family: roboto;
+    font-weight:200;
+    text-align: center;
+    padding-bottom:10px;
+    word-spacing:5px;
+}
+.our-slider .carousel-item .carousel-caption button{
+    font-size:18px;
+    font-family: roboto;
+    font-weight:200;
+    text-align: center;
+   background-color: #3f52e3;
+   color: white;
+   padding:10px;
+   border-radius:50px;
+   margin-top: 10px;
+   padding-left: 25px;
+   padding-right:25px;
+}
+/*--navbar--*/
+.navbar{
+ color: rgb(54, 48, 48);
+position: absolute;
+top:15px;
+color: white;
+width:100%;
+}
+.navbar .nav-item .nav-link {
+    color:white;
+    padding:10px;
+    padding-left:25px;
+    font-size: 16px;
+    font-family: roboto;
+    font-size:200;
+    margin-bottom:0px;
+}
+.navbar .navbar-nav .active .nav-link{
+    color:#3f52e3;
+    font-family: roboto;
+    font-size:400;
+    font-size: 18px;
+    margin-top:-3px;
+   
+}
+.navbar .nav-item .nav-link:hover{
+    color: #3f52e3;;
+}
+.navbar .navbar-brand {
+    color:#3f52e3;
+    font-family: roboto;
+    font-size:900;
+    font-size: 28px;
+}
+/*--saidbar--*/
+.saidbar-area {
+    margin-top:120px;
+    margin-bottom:50px;
+}
+.saidbar-area img{
+ width:100%;
+ height:250px;
+
+}
+.saidbar-area .caption{
+    padding:20px;
+    margin-left:20px;
+}
+.saidbar-area .caption h4{
+ font-family: Arimo;
+ font-weight:400;
+ font-size:35px;
+}
+.saidbar-area .caption p{
+    font-family: Arimo;
+    font-weight:200;
+    font-size:16px;
+    padding-top:20px;
+    color: rgb(192, 192, 192);
+   }
+
+   .saidbar-area .caption button{
+    font-family: Arimo;
+    font-weight:200;
+    background-color: #3f52e3;
+   color: white;
+   padding:10px;
+   border-radius:50px;
+   padding-left: 25px;
+   padding-right:25px;
+   font-size:15px;
+   word-spacing:4px;
+   margin-top: 10px;
+   }
+   .saidbar-card {
+       margin-bottom: 50px;
+   }
+.saidbar-card .card-area{
+    text-align: center;
+    border:1px solid rgb(194, 191, 191);
+    margin:5px;
+    margin-top:50px;
+    padding:10px;
+}
+.saidbar-card .card-area i{
+    color:#3f52e3;
+    font-size:58px;
+    padding:10px;
+}
+.saidbar-card .card-area h4{
+    color:#3f52e3;
+    font-size:25px;
+    padding:10px;
+    font-family:roboto;
+    font-weight:400;
+}
+.saidbar-card .card-area p{
+    color:rgb(194, 191, 191);
+    font-size:15px;
+    padding:10px;
+    font-family:roboto;
+    font-weight:300;
+}
+.saidbar-card .card-area:hover{
+ background-color: rgb(108, 117, 117);
+}
+.couterup {
+    text-align: center;
+}
+.couterup i{
+    background-color: #3f52e3;
+    color: white;
+    font-size:50px;
+    padding:20px;
+    border-radius: 50%;
+}
+.couterup span{
+    color: white;
+    font-size:40px;
+    font-family:roboto;
+    font-weight:400;
+    padding:20px;
+    padding-top:40px;
+}
+.couterup p{
+    color: rgb(219, 218, 218);
+    font-size:15px;
+    font-family:Amatic;
+    font-weight:200;
+    padding:10px;
+    word-spacing:5px;
+}
+.saidbar-area1 img{
+    margin-top:0px;
+    margin-left:-30%;
+    width:125%;
+    height:350px;
+}
+.saidbar-area1 i{
+    top:-50%;
+    left:30%;
+    position: relative;
+    padding:25px;
+    font-size:100px;
+    color: #f0f0f3;
+
+}
+.saidbar-area1 .caption h4{
+font-family: Arimo;
+ font-weight:400;
+ font-size:30px;
+ margin-top:50px;
+}
+.saidbar-area1 .caption p{
+    font-family: Arimo;
+    font-weight:200;
+    font-size:16px;
+    padding-top:20px;
+    color: rgb(192, 192, 192);
+   }
+
+   .saidbar-area1 .caption button{
+    font-family: Arimo;
+    font-weight:200;
+    background-color: #3f52e3;
+   color: white;
+   padding:10px;
+   border-radius:50px;
+   padding-left: 25px;
+   padding-right:25px;
+   font-size:15px;
+   word-spacing:4px;
+   margin-top: 10px;
+   }
+.saidbar-card .caption{
+    text-align: center;
+}
+.saidbar-card .caption h4{
+    font-family: roboto;
+    font-weight:300;
+    font-size:35px;
+}
+.saidbar-card .caption p{
+    font-family: Arimo;
+    font-weight:200;
+    font-size:16px;
+    margin-left:8%;
+    margin-right:8%;
+    color: rgb(192, 192, 192);
+   }
+   .saidbar-card button{
+    font-family: Arimo;
+    font-weight:200;
+    background-color: #3f52e3;
+   color: white;
+   padding:15px;
+   border-radius:50px;
+   padding-left: 25px;
+   padding-right:25px;
+   font-size:18px;
+   word-spacing:4px;
+   margin-top: 30px;
+   margin-top:70px;
+   }
+   /*--consultason--*/
+   .consultason{
+       text-align: center;
+       padding:20px;
+   }
+   .consultason h4{
+       font-size: 55px;
+       margin-top: 50px;
+       font-family: roboto;
+       font-weight:200;
+       color: white;
+       margin-left:10% ;
+       margin-right:10%;padding-bottom: 30px;
+   }
+   .consultason p{
+    font-size: 18px;
+    margin-top:5px;
+    font-family: roboto;
+    font-weight:300;
+    color: rgb(224, 223, 223);
+}
+.consultason button{
+    font-family: Arimo;
+    font-weight:200;
+    background-color: #3f52e3;
+   color: white;
+   padding:10px;
+   border-radius:50px;
+   padding-left: 25px;
+   padding-right:25px;
+   font-size:18px;
+   word-spacing:4px;
+   }
+.cliends-area{
+    padding-bottom: 50px;
+}
+
+
+.cliends-area .owl-carousel{
+    text-align: center;
+    justify-content: center;
+}
+.cliends-area h4{
+    font-size:40px;
+    font-family: roboto;
+    font-weight:200;
+    text-align: center;
+    padding-top:50px;
+} 
+.cliends-area .owl-carousel .owl-item .caption img{
+    width:30%;
+    margin-top:40px;
+}
+.cliends-area .owl-carousel .owl-item .caption h6{
+   color: black;
+   font-family: roboto;
+   font-weight:200;
+   font-size:18px;
+   padding: 10px;
+ }
+ .cliends-area .owl-carousel .owl-item .caption p{
+    color: rgb(192, 192, 192);
+    font-family: roboto;
+    font-weight:200;
+    font-size:19px;
+    padding: 10px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-bottom:-3%;
+  }
+  .advice-area {
+      margin-bottom:70px;
+  }
+  .advice-area .contact-caption{
+      background-color:#3f52e3;
+      color: white;
+      padding:50px;
+  }
+  .advice-area .contact-caption label{
+      padding-top:10px;
+      padding-bottom:10px;
+  }
+  .advice-area .contact-caption .form-control{
+      background-color: #3f52e3;
+       color: rgb(36, 29, 29);
+  }
+  .advice-area .contact-caption textarea{
+    background-color:#3f52e3;
+    color: white;
+    padding:20px;
+    width:100%;
+  }
+  .advice-area .contact-caption button{
+    font-family: Arimo;
+    font-weight:200;
+    background-color: #7a86df;
+   color: white;
+   padding:8px;
+   border-radius:50px;
+   padding-left: 25px;
+   padding-right:25px;
+   font-size:14px;
+   word-spacing:4px;
+  }
+  .recent-card .caption{
+  text-align: center;
+  }
+  .recent-card .caption h4{
+    font-size:35px;
+    font-family:Arimo;
+    font-family:600;
+    }
+
+    .recent-card .caption p{
+        font-size:15px;
+        font-family:Arimo;
+        font-family:200;
+        margin-left:10%;
+        margin-right:10%;
+        padding:10px;
+        color: rgb(201, 198, 198);
+        padding-bottom: 50px;
+        }
+    .recent-card .card-area img{
+        height:300px;
+        width: 100%;
+        border-radius:5px;
+    } 
+    .recent-card .card-area h4{
+        font-family:Cinzel;
+        font-family:200;
+        padding:10px;
+        color: #7a86df;
+        font-size:18px;
+    }
+    .recent-card .card-area h6{
+        font-family:Roboto;
+        font-family:200;
+        padding:10px;
+        color: #bdb7b7;
+        font-size:15px;
+    }
+    .recent-card .card-area p{
+        font-family:Roboto;
+        font-family:200;
+        color: #bdb7b7;
+        padding-left:10px;
+        padding-right:10px;
+        font-size:14px;
+    }
+
+.Our-attorneys{
+        margin-top:170px;
+    }
+.Our-attorneys .caption{
+        text-align: center;
+        }
+.Our-attorneys .caption h4{
+          font-size:35px;
+          font-family:Arimo;
+          font-family:600;
+          }
+.Our-attorneys .caption p{
+     font-size:15px;
+     font-family:Arimo;
+     font-family:200;
+     margin-left:10%;
+    margin-right:10%;
+    padding:10px;
+    color: rgb(201, 198, 198);
+    padding-bottom: 50px;
+ } .Our-attorneys .caption .card-area{
+     text-align: center;
+ }
+ .Our-attorneys .card-area img{
+    height:300px;
+    width: 100%;
+    border-radius:5px;
+} 
+.Our-attorneys .card-area h4{
+    font-family:Cinzel;
+    font-family:200;
+    padding:10px;
+    color: #36373a;
+    font-size:18px;
+    text-align: center;
+    padding-top:25px;
+}
+.Our-attorneys .card-area h6{
+    font-family:Roboto;
+    font-family:200;
+    padding:10px;
+    color: #bdb7b7;
+    font-size:15px;
+    text-align: center;
+}
+.Our-attorneys .card-area p{
+    font-family:Roboto;
+    font-family:200;
+    color: #bdb7b7;
+    padding-left:10px;
+    padding-right:10px;
+    font-size:14px;
+    text-align: center;
+}
+.Our-attorneys .card-area .icon{
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+}
+.Our-attorneys .card-area .icon i{
+    color:#7a86df;
+    padding:10px;
+    font-size:25px;
+}
+.services-area {
+ margin-top:50px;
+}
+.services-area .sr {
+    background-color:#7a86df;
+    padding:0;
+    margin: 0;
+}
+.services-area .srn {
+    background-color:#4557e0;
+    padding:0;
+    margin: 0;
+}
+.services-area .caption{
+    padding:20px;
+    color:white
+}
+.services-area .caption h6{
+    font-size:24px;
+    font-family:roboto;
+    font-weight:200;
+    padding:10px;
+}
+.services-area .caption p{
+    font-size:15px;
+    font-family:roboto;
+    font-weight:400;
+    padding:10px;
+}
+   /*--footer--*/
+footer{
+    background-color: #0b162a;
+    color:white;
+    padding-top:100px;
+    margin-top:-50px;
+}
+footer .container .col-md-3 h3{
+    font-size:18px;
+    font-family: roboto;
+    font-weight:300;
+    padding:15px;
+    letter-spacing:2px;
+    word-spacing:5px;
+ }
+ footer .container .col-md-3 p{
+    font-size:14px;
+    font-family: roboto;
+    font-weight:300;
+    padding-left:15px;
+   color: rgb(231, 231, 231);
+ }
+ footer .container .col-md-3 a{
+     color: rgb(179, 174, 174);
+     font-size:16px;
+     font-family: roboto;
+     font-weight:400;
+ }
+ footer .footer-bottom{
+     margin-top:70px;
+     padding-bottom:20px;
+     font-family: roboto;
+     font-size:24px;
+     font-weight: 300;
+     color:rgb(179, 174, 174);
+     text-align:center;
+ }
+ footer .footer-bottom i{
+     color: rgb(141, 89, 89);
+ }
+ footer .footer-bottom .icon{
+    padding-left:10px;
+    padding-right:10px;
+    text-align: center;
+ }
+ footer .footer-bottom .icon i{
+    color:#505cb6;
+    padding:10px;
+    font-size:25px;
+ }
+ /*--woncasesarea--*/
+ .galary-area {
+    margin-top:100px;
+    margin-bottom:50px;
+ }
+ .galary-area .caption{
+     padding:20px;
+     margin-bottom:50px;
+     text-align: center;
+     border:1px solid rgb(202, 202, 202);
+ }
+ .galary-area .caption:hover{
+   background-color:rgb(108, 117, 117);
+}
+ .galary-area .caption h4{
+     font-size:25px;
+     font-family: roboto;
+     font-weight: 200;
+     color:#7a86df;
+ }
+ .galary-area .caption p{
+    font-size:15px;
+    padding:10px;
+    font-family: roboto;
+    font-weight: 400;
+    color:#c4c4c5;
+}
+.galary-area .caption h6{
+    font-size:15px;
+    font-family: roboto;
+    font-weight: 200;
+    color:black;
+}
+.galary-area .icon{
+    text-align: center;
+}
+.galary-area .icon span a{
+    padding:10px 20px;
+    border: 1px solid #7a86df ;
+    border-radius:5px;
+}
+.gallary-area{
+    margin-top:70px;
+    margin-bottom:20px;
+}
+.gallary-area .col-md-4{
+    margin:0px;
+    padding:5px;
+   
+}
+.gallary-area img{
+    width:100%;
+    height:270px;
+    margin:5px 10px;
+}
+.gallary-area .icon{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.gallary-area .icon span a{
+    padding:10px 20px;
+    border: 1px solid #7a86df ;
+    border-radius:5px;
+}
+.recent-area .icon{
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.recent-area .icon span a{
+    padding:10px 20px;
+    border: 1px solid #7a86df ;
+    border-radius:5px;
+}
+.advice-area .caption-area {
+    padding:20px;
+    margin-top:40px;
+    margin-left:40px;
+    font-family:roboto;
+}
+.advice-area .caption-area h5{
+    font-size:22px;
+    font-weight:400;
+}
+.advice-area .caption-area p{
+    font-size:16px;
+    font-weight:400;
+    color: #bdb7b7;
+}
+.advice-area .caption-area p span{
+    font-size:26px;
+    font-weight:400;
+    color: #bdb7b7;
+}
+.advice-area .caption-area p a{
+    font-size:16px;
+    font-weight:400;
+    
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.header-btn {
+    padding: 30px 53px;
+}
